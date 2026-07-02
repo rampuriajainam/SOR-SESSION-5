@@ -22,6 +22,7 @@ setup(
         'console_scripts': [
             'send_initialpose = bme_ros2_navigation_py.send_initialpose:main',
             'slam_toolbox_load_map = bme_ros2_navigation_py.slam_toolbox_load_map:main',
+            'patroller = bme_ros2_navigation_py.patroller:main',
         ],
     },
 )
